@@ -1,0 +1,30 @@
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+
+}
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between; 
+    margin: 10px;
+}
+
+.homeContainer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.homeTitle{
+    width: 1024px;
+    font-size: 20px;
+}
+.homeTitle2{
+    width: 1024px;
+}

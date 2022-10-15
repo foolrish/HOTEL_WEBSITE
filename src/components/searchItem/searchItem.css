@@ -1,0 +1,123 @@
+.SearchItem{
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 10px;
+    display: flex; 
+    border-radius: 5px;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.siImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.siDistance{
+    display: block;
+    margin-top: 8px;
+    font-size: small;
+    color: gray;
+    font-weight: bold;
+}
+.siSubtitle{
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.siFeatures{
+    display: block;
+    font-size: 15px;
+    margin-top: 9px;  
+    font-size: 13px; 
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: gray;
+}
+.siCancelOp{
+    color: rgb(0, 127, 0);
+    font-weight: 800;
+    font-size: 13px;
+}
+.siCancelOpText{
+    color: rgb(47, 182, 47);
+    font-weight: 600;
+    font-size: 12px;
+    display: block;
+    margin-top: 7px;
+}
+.siTaxiOp{
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+
+}
+.TaxiOpContainer{
+    background-color: green;
+    display: block;
+    max-width: fit-content;
+    padding: 2px 3px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.siDetails{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rate{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: top;
+    
+    
+}
+.rating{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 3px;  
+}
+.ratingNum{
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #003580;
+    padding: 6px;
+    width: max-content;
+    height: max-content;
+    color: white;
+    border: none;
+    margin-left: 40px;
+}
+.cost{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 5px;
+}
+.costPrice{
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+.tax{
+    font-size: 10px;
+    color: rgb(151, 150, 150);
+    font-weight: 500;
+    
+}
+.availability{
+    background-color: #0071c2;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 5px;
+    border: none;
+}
